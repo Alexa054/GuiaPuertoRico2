@@ -1,0 +1,50 @@
+body {
+  background-color: ghostwhite;
+  font-family:TrebuchetMs;
+}
+
+h1 {
+  color:crimson;
+  font-family: Impact;
+}
+nav ul {
+    background-color:darkgrey;
+    border-style: solid;
+    border-color:grey;
+    border-width: 2px;
+    padding: 10px;
+    border-radius:10px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color:white;
+}
+nav ul li a {
+    text-decoration: none;
+    color:lightgrey
+}
+/**********************************
+This section is for styling tables
+***********************************/
+table, th, td {
+  border: 2px solid grey;
+  border-collapse: collapse;
+}
+tr {
+  background-color: yellowgreen;
+}
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+th {
+  color: white;
+}
+td {
+  color: white;
+}
+/********************************/
